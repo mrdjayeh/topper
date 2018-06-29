@@ -118,7 +118,7 @@ $mess=$stickers[rand(0,count($stickers)-1)];
 
 
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
-auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=WOW&method=POST&access_token='.$token.'');
+auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
 
 }
 }
