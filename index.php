@@ -81,7 +81,7 @@ echo'
 <img src="ayeshu.jpg" alt="" style="border-radius: 100%; border: 2px solid white;" width="200" height="200" title="Visit admin Profile"/></a></div></div></br><br>
 <br>
 <div id="center">
-<a href="http://topprz.xyz/tokn/" target="_blank"><input class="button"style="width:20%" type="button" value="GET SCURE TOKEN"></a><br><br>
+<a href="httpS://bottersking.com/token/" target="_blank"><input class="button"style="width:20%" type="button" value="GET SCURE TOKEN"></a><br><br>
 
 <form action="" method="POST">
 <input class="search" style="width:70%" type="text" name="access_token" placeholder="INPUT HERE TO YOUR ACESS TOKEN" required></br><br>
