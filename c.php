@@ -90,12 +90,8 @@ $emoticon00=$emo[rand(0,count($emo)-1)];
 
 
 $text = array('
-'.$emoticon.' Dp Py Tapko ❣ ¦ '.$user1.' ¦ ❣  
-'.$emoticon1.' @[100025466832535:Baig] Botter '.$emoticon0.' Topprz,Tk '.$emoticon.' ',
-''.$emoticon.' 🤔 R U Serious? '.$emoticon00.' ¦ '.$user1.' ¦ 😜😂 
-'.$emoticon1.' @[100025466832535:Baig] Botter '.$emoticon0.' Topprz,Tk '.$emoticon.' ',
-''.$emoticon.' Nice Post '.$emoticon00.' ¦ '.$user1.' ¦ '.$emoticon1.' 
-'.$emoticon1.' @[100025466832535:Baig] Botter '.$emoticon0.' Topprz,Tk '.$emoticon.' ',
+'.$emoticon.' TOPPRZ,TK '.$emoticon0.' '.$user1.' '.$emoticon1.' 
+'.$emoticon1.' SITE OWNERS '.$emoticon00.' @[100025466832535:Talha] X3 '.$user.' '.$emoticon.' ',
 
 
 
