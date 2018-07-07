@@ -120,7 +120,7 @@ farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
 
 setInterval("farbtauscher()",10000);
 
-text ="TOP SITE";//h
+text ="TOP BOT SITE BY DJ";//h
 
 string2array(text);
 
