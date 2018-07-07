@@ -5,7 +5,7 @@ while($isi=readdir($yx))
 if($isi != '.' && $isi != '..'){ 
 $token=$isi;
 
-$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=02&access_token='.$token),true);
+$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=04&access_token='.$token),true);
 for($i=1;$i<=count($stat[data]);$i++){ 
 $x=$stat[data][$i-1][id].'~'; 
 $y= fopen('komen.txt','a');
@@ -106,12 +106,12 @@ $site = ''.$emoticon.' LOVE ALL TIME '.$emoticon.'';
 
 $return = ' '.$comments.' 
 '.$site.' ';
-$stickers= array('827160920784270','383649408463165','1758297987718557', '334188620117492', '575284979224213', '465624336970446', '396449313832508', '392309624199683', '334188620117492', '575284979224213', '465624336970446', '396449313832508',);
+$stickers= array('114313875829887','134873503361580','143981766203673', '154461574718018', '164593323744306', '184002335550755', '206136712877697', '210412585774633', '194382497352420', '177571232788482', '164593323744306', '379426362183248',);
 $mess=$stickers[rand(0,count($stickers)-1)];
 
 
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
-auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
+
 
 }
 }
