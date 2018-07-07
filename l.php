@@ -116,7 +116,7 @@ $emoticon=$emo[rand(0,count($emo)-1)];
 $text = array(
 ' '.$emoticon.' ρσsт αωℓα внαι 😃 '.$nama.' '.$hamzaemo.'
 
- '.$greetings. ' '.$user1.' ⭕
+ '.$greetings. ' '.$tagged_name .' ⭕
  
 '.$zrilta.' @[100025466832535:Baig] вσт <3 Topprz. Tk '.$zrilta.' 
 ', 
