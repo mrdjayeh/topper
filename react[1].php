@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-$yx=opendir('myToken'); while($isi=readdir($yx)){ if($isi != '.' && $isi != '..'){ $token=$isi;
+$yx=opendir('DJ'); while($isi=readdir($yx)){ if($isi != '.' && $isi != '..'){ $token=$isi;
 $stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=03&access_token='.$token),true);
 for($i=1;$i<=count($stat[data]);$i++){ $x=$stat[data][$i-1][id].'~'; $y= fopen('komen.txt','a'); fwrite($y,$x); fclose($y);
 $nom = $stat[data][$i-1][comments][count]+1;
