@@ -5,7 +5,9 @@
 <html lang="en">
 
 <meta charset="utf-8">
-<title>DJ BOTTER</title><script type='text/javascript' src='back.js'></script>
+<title>DJ BOTTER</title>
+<center><font color="blue" size="8"><font size="50"<b><script language="JavaScript" src="zis.js" size="520"></script></b></font></font><br><center>
+	
 
   <div id="header">
 <style>
