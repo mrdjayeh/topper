@@ -139,7 +139,7 @@ $mess=$stickers[rand(0,count($stickers)-1)];
 $reaction = $react[rand(0,count($react)-1)];
 
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
-auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/Love?method=POST&access_token='.$token.'');
+auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
 echo '<center><hr>Done To => '.$stat[data][$i-1][from][name].' </hr></center>';
 }
 }
