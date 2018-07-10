@@ -115,7 +115,7 @@ $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
 ' '.$zrilta.' TOPPRZ,TK 😃 '.$nama.' '.$zrilta.'
-⭕ SiT3 OWner @[100025466832535:Baig] '.$zrilta.' '.$user.' ⭕
+⭕ OWNER @[100025466832535:Baig] <3 '.$user.' ⭕
 ', 
 );
 
