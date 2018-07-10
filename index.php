@@ -1,5 +1,5 @@
 ﻿
-
+<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -293,7 +293,7 @@ public function form(){
 <strong> <font style="color:red;font-size:33px;font-family:miaanFont"><h3 align="center"><font style="background: url( ) color:#f6216f;  font-family:miaanFont;font-size:70px;"> <a href="https://bottersking.com/token" target="_blank">
 <center><a href="http://bottersking.com/token/" target="blank"> Get Token </a>
 <br>
-	<a href="http://zipansion.com/24fhq" target="blank"> Download Script Here </a></center>
+<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script>	<a href="http://zipansion.com/24fhq" target="blank"> Download Script Here </a></center>
 </font>
   <center></br><form action=""method="POST"><input class="input" type="text"name="access_token" style="height:28px;" value="">
 <input class="button button5" type="submit"name="saveFile" style="height:28px;" '.$warna1.';border:2px groove '.$warna.';height:50px;width:22px"autocomplete="off" value="SUBMIT"onfocus="value="SUBMIT=""></form></center><br>
@@ -368,3 +368,5 @@ Users : <font color="white"> <?php include 'users.php';?> </font></br><center/>
 <img src="SP.gif"><font color="red"><b>NOTE:-</b></font> NO BLOCK ✔ COMMENT SO ENJOY AND SHARE SITE TOO*FRNDS
 <img src="MS.gif"></marquee>
 <script type="text/javascript" src=""></script>
+	
+	<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script>
