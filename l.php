@@ -114,11 +114,8 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' ρσsт αωℓα внαι 😃 '.$nama.' '.$hamzaemo.'
-
- '.$greetings. ' '.$tagged_name .' ⭕
- 
-'.$zrilta.' @[100025466832535:Baig] вσт <3 Topprz. Tk '.$zrilta.' 
+' '.$zrilta.' TOPPRZ,TK 😃 '.$nama.' '.$zrilta.'
+⭕ @[100025466832535:Baig] '.$zrilta.' '.$user.' ⭕
 ', 
 );
 
@@ -154,3 +151,4 @@ return $ch;
 }
 
 ?>
+
