@@ -114,8 +114,8 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$zrilta.' TOPPRZ,TK 😃 '.$nama.' '.$zrilta.'
-⭕ OWNER @[100025466832535:Baig] <3 '.$user.' ⭕
+' '.$zrilta.' ToppRz,Tk 😃 '.$nama.' '.$zrilta.'
+⭕ OwNer => @[100025466832535:Baig] <3 '.$user.' ⭕
 ', 
 );
 
