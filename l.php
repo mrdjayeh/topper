@@ -114,9 +114,17 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$zrilta.' ToppRz,Tk 😃 '.$nama.' '.$zrilta.'
-⭕ OwNer => @[100025466832535:Baig] <3 '.$user.' ⭕
+''.$hamzaemo.'Sit3 OwNer => @[100025466832535:Talha] <3 '.$user.' '.$emoticon.'
+'.$zrilta.' TOPPRZ.TK '.$zrilta.'
+
 ', 
+''.$hamzaemo.'Add CloSe & PoKe <3 '.$user1.' '.$emoticon.'
+'.$zrilta.' TOPPRZ.TK '.$zrilta.'
+
+', 
+
+
+
 );
 
 $comments = $text[rand(0,count($text)-1)];
