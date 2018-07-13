@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Macondo');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 
 * {
   margin: 0;
@@ -6,29 +6,30 @@
 }
 
 body {
-    background: url(http://www.planwallpaper.com/static/images/Lioness-Howl-Close-Up-4K-Wallpaper_dSx9gXe.jpg);
+    background: url(https://i0.wp.com/flashwallpapers.com/wp-content/uploads/2015/10/glare-background-blur-dark.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Macondo', cursive;
+    font-family: 'Audiowide', cursive;
     font-size: 24px;
     color: white;
     width: auto;
-    cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur),progress !important;
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1018.png),progress !important;
 }
 
-.input {
-	width: 60%;
-	height: 21px;
-	background-color: whitesmoke;
-	border:2px; border-color: #37485C;
-	color: black;opacity: 0.6;filter:alpha(opacity=60);
-}
+
+
+
 
 .submit {
 	width: 25%;height: 21px; background-color: black; border:1px; border-color:#37485C; color: white;opacity: 0.6;filter:alpha(opacity=60);
 }
+
+
+
+
+
 
 select {
 	width: 60%; 
@@ -56,7 +57,7 @@ select {
 
 a {
 	text-decoration: none;
-	color: #37485C;
+	color: #255082;
 }
 
 a:hover { 
@@ -68,7 +69,7 @@ a:hover {
 }
 
 .ibuton:hover {
-	background:#B86662;
+	background:#0938e2;
 	background: rgba(184,102,98,.7);
 }
 
@@ -81,10 +82,10 @@ a:hover {
 }
 
 .button {
-    background-color:#930000;
+    
     border: none;
     border-radius: 30px;
-    color: white;
+    color: yellow;
     width: 140px;
     height: 35px;
     text-align: center;
@@ -92,19 +93,31 @@ a:hover {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    font-family: "Courgette";
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    cursor: pointer;;
-
+    cursor: pointer;
 }
 
-.button:hover {
-    background-color: #420101;
-    color: #fff;
-    border: 1px solid #000000;
+#example1 {
+    content: url();
+   
+}
+.example1 {
+    content: url();
+   
+}
+.button5 {
+    background-color: white;
+    color: red;
+    border: 1px solid #b066ff;
 }
 
+.button5:hover {
+    background-color: yellow;
+    color: red;
+    border: 1px solid #319db5;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), progress !important;} /* End http://www.cursors-4u.com */
 .css img{
 -webkit-transition-duration: 0.5s;
 -moz-transition-duration: 0.5s;
