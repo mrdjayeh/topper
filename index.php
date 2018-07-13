@@ -360,7 +360,7 @@ return $result;
 <center><img src="http://olowoyo.mywapblog.com/files/hot2.gif" alt="hot2.gif"><a href="http://hand-user.tk" style="margin-left:5px;"><input type="button" value="Bot Server1" style="border:0px;color:rgb(255,255,255);padding:7px 8px 7px 9px;font-size:12px;margin-left:-3px;background:rgb(255,0,0);"></a></center>
 <center><img src="http://olowoyo.mywapblog.com/files/hot2.gif" alt="hot2.gif"><a href="http://my-fans.tk.tk" style="margin-left:5px;"><input type="button" value="Bot Server2" style="border:0px;color:rgb(255,255,255);padding:7px 8px 7px 9px;font-size:12px;margin-left:-3px;background:rgb(255,0,0);"></a></center>
 <center><img src="http://alo0osh-sy.xtgem.com/images/12-74_1.gif" alt="12-74 1"><center>
-
+center><a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=topprz.tk11319219&digit=style/plain/13/&reloads=0" alt="web visitor counter script" title="web visitor counter script" border="0"></a><br /><a href="http://www.reliablecounter.com/de/" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">web visitor counter</a><center>
 <marquee behavior="alternate" <img="" src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><scroll" direction="left" scrollamount="0" scrolldelay="0"><strong><font style="text-shadow: 1px 1px black; color:white;" size="6">SCRIPT MODIFY BY BAIG BOTTER</font></strong><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"><img src="http://alo0osh-sy.xtgem.com/images/gif_1_6.gif" alt="Gif 1 6"></scroll"></marquee>
 <br>
  
