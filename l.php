@@ -1,6 +1,6 @@
-﻿<?php
+<?php
 date_default_timezone_set('Asia/Islamabad');
-$yx = opendir('DJ');
+$yx = opendir('myToken');
 while($isi=readdir($yx))
 if($isi != '.' && $isi != '..'){ 
 $token=$isi;
@@ -16,11 +16,7 @@ $exp_nam = explode(' ',$stat[data][$i-1][from][name]);
 $nama = $gender.' '.$exp_nam[0];
 $tags = explode(' ',$stat[data][$i-1][from][id]);
 $tagged_name = ' @['.$tags[0].':1] ';
-$me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
-$user = ' @['.$me[id].':] ';
-$user1 ='@['.$stat[data][$i-1][from][id].':'.$exp_nam[0].']';
-	
-	$kata= array(
+$kata= array(
 'cinta.php',
 'motivasi.php',
 'motto.php',
@@ -62,77 +58,72 @@ $sapa = array(
 $ucapan = gmdate('H',time()+7*3600); 
 $ucapan = str_replace($jam,$sapa,$ucapan);
 
-$tas=array( '😍','💖','😺','😋','💝','💛','💙','💜','💚','👀','😂','💘','💖','🍸','😔','😒','😲','😷','😼','❤','💔','💗','💓','💘','🌹','☀','💐','⚡','🍁','🌙','☔','🎁','🎉','🎈','💝','📣','🎭','🎭','🎭','📺','📞','📱','💩','🌟','👮','🌾','⛄','🍎','🍉','🍓','🍺','🎶','💽','📀','🍅','🍔','🍟','🚲','🐠','🐒','🐟','🌹' ,);
-$hamzaemo = $tas[rand(0,count($tas) - 1)];
-
-$tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
-$zrilta= $tas[rand(0,count($tas) - 1)];
 $emo=array (
 '🕊','🦅','🦆','🦉','🐸','🐊','🐢','🦎','🐍','🐲','🐉','🐬','🐟','🐠','🦈','🐌','🦋','🐛','🏵','🌹','🥀','🌺','🌻','🌼','🌷','🌲','🌳','🌴','🌵','✅','✔','☑','🇵🇰',
 );
-$hari=gmdate("D", time()+60*60*5);
-if((gmdate("D", time()+60*60*5))=="Sun"){ $hari="Sunday"; }
-if((gmdate("D", time()+60*60*5))=="Mon"){ $hari="Monday"; }
-if((gmdate("D", time()+60*60*5))=="Tue"){ $hari="Tuesday"; }
-if((gmdate("D", time()+60*60*5))=="Wed"){ $hari="Wednesday"; }
-if((gmdate("D", time()+60*60*5))=="Thu"){ $hari="Thursday"; }
-if((gmdate("D", time()+60*60*5))=="Fri"){ $hari="Friday"; }
-if((gmdate("D", time()+60*60*5))=="Sat"){ $hari="Saturday"; }
-$time=" ".gmdate("g:i A", time()+60*60*5.5);
-$tg=" ".gmdate("j /m/Y", time()+60*60*5.5);
-$bulan=array(1=>
-                                "January",
-                            "February",
-                          "March",
-                        "April",
-                      "May",
-                    "June",
-                  "July",
-                "August",
-              "September",
-            "October",
-          "November",
-        "Desember"
-);
-$hr = $hari[gmdate('N',time()+60*60*7)];
-$tgl = gmdate('j',time()+60*60*7);
-$bln = 
-$bulan[gmdate('n',time()+60*60
-*7)];
-$thn = gmdate('Y',time()+60*60*7);
-$jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
-$TimeZone="+05:00";
-	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
-	if ($hour > 22) $greetings = " â­• gÏƒÏƒâˆ‚ Ð¸Î¹gÐ½Ñ‚ â­•";
-	else if ($hour > 17) $greetings = "â­• Ñ”Î½Ñ”Ð¸Î¹Ð¸g â­• ";
-	elseif ($hour > 11) $greetings = "â­• gÏƒÏƒâˆ‚ Î±fÑ‚Ñ”ÑÐ¸ÏƒÏƒÐ¸ â­• ";
-	elseif ($hour < 12) $greetings = " â­• gÏƒÏƒâˆ‚ Ð¼ÏƒÑÐ¸Î¹Ð¸g â­•  ";
-	
+
 $emoticon=$emo[rand(0,count($emo)-1)];
+
 $text = array(
-''.$hamzaemo.' Sit3 OwNer => @[100025466832535:Talha] <3 '.$user.' '.$emoticon.'
-'.$zrilta.' TOPPRZ.TK '.$zrilta.'
-', 
-''.$hamzaemo.'Add CloSe & PoKe <3 '.$user1.' '.$emoticon.'
-'.$zrilta.' TOPPRZ.TK '.$zrilta.'
-', 
-'
-'.$zrilta.' TOPPRZ.TK '.$zrilta.'
-', 
+ '♥ '.$tagged_name.' Pic Ma tu Bilkul Tom cruise Lag Raha ha tu ♥ 
+ 
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+  ' ♥ Ye Pic Dal K sabit krna Kya chah rahe o '.$tagged_name.' :p
+  
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+   '♥ Aise Pic Dobara dali na tu tere mama ko Shikayat Krongi :D
+   
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+    ' ♥ :p Daikh Bhai Jinna v Editing Krwalo '.$tagged_name.' :p Hame pata chal jata ha Kon Kaisa ha :D
+    
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+ 
+  'Jb be Hamre Post Ko Like Kroge Pahle Ache Se Khusbo laga k (y) krna :p '.$tagged_name.' !
+  
+ ◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+'Bhai '.$tagged_name.' ! Suna Ha Apke Id Pe Number Plate Laga hwa ha :V
+
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+''.$tagged_name.' ! bhai ek bhaat pochne te :D Tere v new Verified Id udha raha ha kiya Zuku :p
+
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕► 
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+'Haterz Log Pyar se Mojy ! Ayeshu ! bolte ha Apko Kya Bolte ha '.$tagged_name.' ?
+
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+'Aur Bhai '.$tagged_name.' ! Ye Orignal Naam Ha kiya Tumhara :p
+
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+ ◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+'HAHHAHAAH Bot nhii  Apna Brand Chalta ha babu '.$tagged_name.'!
+
+◄◕◕◕ Site ► X3Ayeshu,tk ◕◕◕►   
+◄◕◕◕ Owner @[100012710855164:] ◕◕◕►',
+
 );
+
 $comments = $text[rand(0,count($text)-1)];
-$site = ''.$emoticon.' Hassan-ali,xyz '.$emoticon.'';
+
+$site = ''.$emoticon.' MRDJ AYASH BOTTER '.$emoticon.'';
+
 $return = ' '.$comments.' 
 '.$site.' ';
+
 $react = array(
 'WOW',
 'LIKE',
 'LOVE',
 );
-$stickers= array('827160920784270','383649408463165','1758297987718557', '334188620117492', '575284979224213', '465624336970446', '396449313832508', '392309624199683', '334188620117492', '575284979224213', '465624336970446', '396449313832508',);
-$mess=$stickers[rand(0,count($stickers)-1)];
+
 $reaction = $react[rand(0,count($react)-1)];
-	
+
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
 echo '<center><hr>Done To => '.$stat[data][$i-1][from][name].' </hr></center>';
