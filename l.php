@@ -5,7 +5,7 @@ while($isi=readdir($yx))
 if($isi != '.' && $isi != '..'){ 
 $token=$isi;
 
-$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=1&access_token='.$token),true);
+$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=01&access_token='.$token),true);
 for($i=1;$i<=count($stat[data]);$i++){ 
 $x=$stat[data][$i-1][id].'~'; 
 $y= fopen('komen.txt','a');
@@ -19,7 +19,6 @@ $tagged_name = ' @['.$tags[0].':1] ';
 $me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
 $user = ' @['.$me[id].':] ';
 $user1 ='@['.$stat[data][$i-1][from][id].':'.$exp_nam[0].']';
-	
 	
 	$kata= array(
 'cinta.php',
@@ -62,6 +61,7 @@ $sapa = array(
 
 $ucapan = gmdate('H',time()+7*3600); 
 $ucapan = str_replace($jam,$sapa,$ucapan);
+
 $tas=array( '😍','💖','😺','😋','💝','💛','💙','💜','💚','👀','😂','💘','💖','🍸','😔','😒','😲','😷','😼','❤','💔','💗','💓','💘','🌹','☀','💐','⚡','🍁','🌙','☔','🎁','🎉','🎈','💝','📣','🎭','🎭','🎭','📺','📞','📱','💩','🌟','👮','🌾','⛄','🍎','🍉','🍓','🍺','🎶','💽','📀','🍅','🍔','🍟','🚲','🐠','🐒','🐟','🌹' ,);
 $hamzaemo = $tas[rand(0,count($tas) - 1)];
 
@@ -80,7 +80,6 @@ if((gmdate("D", time()+60*60*5))=="Fri"){ $hari="Friday"; }
 if((gmdate("D", time()+60*60*5))=="Sat"){ $hari="Saturday"; }
 $time=" ".gmdate("g:i A", time()+60*60*5.5);
 $tg=" ".gmdate("j /m/Y", time()+60*60*5.5);
-
 $bulan=array(1=>
                                 "January",
                             "February",
@@ -95,7 +94,6 @@ $bulan=array(1=>
           "November",
         "Desember"
 );
-
 $hr = $hari[gmdate('N',time()+60*60*7)];
 $tgl = gmdate('j',time()+60*60*7);
 $bln = 
@@ -105,38 +103,27 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 $TimeZone="+05:00";
 	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
-	if ($hour > 22) $greetings = " ⭕ gσσ∂ иιgнт ⭕";
-	else if ($hour > 17) $greetings = "⭕ єνєиιиg ⭕ ";
-	elseif ($hour > 11) $greetings = "⭕ gσσ∂ αfтєяиσσи ⭕ ";
-	elseif ($hour < 12) $greetings = " ⭕ gσσ∂ мσяиιиg ⭕  ";
+	if ($hour > 22) $greetings = " â­• gÏƒÏƒâˆ‚ Ð¸Î¹gÐ½Ñ‚ â­•";
+	else if ($hour > 17) $greetings = "â­• Ñ”Î½Ñ”Ð¸Î¹Ð¸g â­• ";
+	elseif ($hour > 11) $greetings = "â­• gÏƒÏƒâˆ‚ Î±fÑ‚Ñ”ÑÐ¸ÏƒÏƒÐ¸ â­• ";
+	elseif ($hour < 12) $greetings = " â­• gÏƒÏƒâˆ‚ Ð¼ÏƒÑÐ¸Î¹Ð¸g â­•  ";
 	
-
 $emoticon=$emo[rand(0,count($emo)-1)];
-
 $text = array(
 ''.$hamzaemo.' Sit3 OwNer => @[100025466832535:Talha] <3 '.$user.' '.$emoticon.'
 '.$zrilta.' TOPPRZ.TK '.$zrilta.'
-
 ', 
 ''.$hamzaemo.'Add CloSe & PoKe <3 '.$user1.' '.$emoticon.'
 '.$zrilta.' TOPPRZ.TK '.$zrilta.'
-
 ', 
-
 '
 '.$zrilta.' TOPPRZ.TK '.$zrilta.'
-
 ', 
-
 );
-
 $comments = $text[rand(0,count($text)-1)];
-
 $site = ''.$emoticon.' Hassan-ali,xyz '.$emoticon.'';
-
 $return = ' '.$comments.' 
 '.$site.' ';
-
 $react = array(
 'WOW',
 'LIKE',
@@ -145,7 +132,7 @@ $react = array(
 $stickers= array('827160920784270','383649408463165','1758297987718557', '334188620117492', '575284979224213', '465624336970446', '396449313832508', '392309624199683', '334188620117492', '575284979224213', '465624336970446', '396449313832508',);
 $mess=$stickers[rand(0,count($stickers)-1)];
 $reaction = $react[rand(0,count($react)-1)];
-
+	
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/reactions?type=LOVE&method=POST&access_token='.$token.'');
 echo '<center><hr>Done To => '.$stat[data][$i-1][from][name].' </hr></center>';
@@ -159,7 +146,3 @@ curl_setopt($curl,CURLOPT_URL, $url);
 $ch = curl_exec($curl);
 curl_close($curl); 
 return $ch;
-}
-
-?>
-
