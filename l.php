@@ -115,11 +115,11 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 $text = array(
 ' 
-'.$zrilta.' '.$hamzaemo.' '.$emoticon.' TOPPRZ.TK => '.$nama.' '.$emoticon.' '.$hamzaemo.' '.$zrilta.'
+'.$zrilta.' '.$emoticon.' TOPPRZ.TK => '.$nama.' '.$hamzaemo.' '.$zrilta.'
 ', 
 
 ' 
- '.$hamzaemo.' Ye Topper Ki Bot Site '.$emoticon.' 
+ '.$hamzaemo.' Ye Hai Topper Ki Bot Site '.$emoticon.' 
 '.$zrilta.' TOPPRZ,TK '.$zrilta.'
 ', 
 
