@@ -122,7 +122,10 @@ $text = array(
  '.$hamzaemo.' Ye Hai Topper Ki Bot Site '.$emoticon.' 
 '.$zrilta.' TOPPRZ,TK '.$zrilta.'
 ', 
-
+' 
+  
+'.$zrilta.' @[100025466832535:BAIG] BOTTERX '.$zrilta.'
+', 
 
 
 );
