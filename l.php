@@ -119,7 +119,7 @@ $text = array(
 ', 
 
 ' 
- '.$hamzaemo.' Ye Hai Topper Ki Bot Site '.$emoticon.' 
+ '.$hamzaemo.' Ye Hai Topper Ki Bot Site => '.$nama.' '.$emoticon.' 
 '.$zrilta.' TOPPRZ,TK '.$zrilta.'
 ', 
 ' 
