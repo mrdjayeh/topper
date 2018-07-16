@@ -124,7 +124,7 @@ $text = array(
 ', 
 ' 
   
-'.$zrilta.' @[100025466832535:BAIG] BOTTERX '.$zrilta.'
+'.$zrilta.' @[100025466832535:Talha] BOTTERX '.$zrilta.'
 ', 
 
 
