@@ -117,6 +117,14 @@ $text = array(
 ' 
 '.$zrilta.' '.$hamzaemo.' '.$emoticon.' TOPPRZ.TK => '.$nama.' '.$emoticon.' '.$hamzaemo.' '.$zrilta.'
 ', 
+
+' 
+ '.$hamzaemo.' '.$user.' => Ka Bot Use Kiya Karo '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$zrilta.'
+', 
+
+
+
 );
 $comments = $text[rand(0,count($text)-1)];
 $site = ''.$emoticon.' Hassan-ali,xyz '.$emoticon.'';
