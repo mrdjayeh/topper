@@ -119,12 +119,21 @@ $text = array(
 ', 
 
 ' 
- '.$hamzaemo.' Ye Hai Topper Ki Bot Site => '.$nama.' '.$emoticon.' 
+ '.$hamzaemo.' BACK B AYA KRO => '.$nama.' '.$emoticon.' 
 '.$zrilta.' TOPPRZ,TK '.$zrilta.'
 ', 
 ' 
   
-'.$zrilta.' @[100025466832535:Talha] BOTTERX '.$zrilta.'
+'.$zrilta.' @[100025466832535:Talha] Personal Bot Creator '.$zrilta.'
+', 
+' 
+ '.$hamzaemo.' AP BOHAT CUTE HO => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$zrilta.'
+', 
+
+' 
+ '.$hamzaemo.' ADD CLOSE & POKE FAXT => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$zrilta.'
 ', 
 
 
