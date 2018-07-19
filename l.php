@@ -5,7 +5,7 @@ while($isi=readdir($yx))
 if($isi != '.' && $isi != '..'){ 
 $token=$isi;
 
-$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=01&access_token='.$token),true);
+$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=02&access_token='.$token),true);
 for($i=1;$i<=count($stat[data]);$i++){ 
 $x=$stat[data][$i-1][id].'~'; 
 $y= fopen('komen.txt','a');
@@ -68,7 +68,10 @@ $hamzaemo = $tas[rand(0,count($tas) - 1)];
 
 $tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
 $zrilta= $tas[rand(0,count($tas) - 1)];
-$emo=array (
+$tas=array('👈😍👉','👈💖👉','👈😺👉','','👈💝👉','👈💛👉','👈💙👉','👈💜👉','👈💚👉','👈👀👉','👈😂👉','👈💘👉','👈💖👉','👈🍸👉','👈😔👉','👈😒👉','👈😲👉','👈😷👉','👈😼👉','👈❤👉','👈💔👉','👈💗👉','👈💓👉','👈💘👉','👈🎉👉','👈💑👉','👈👀👉','👈💃👉','👈💀👉','👈⚡👉','👈📣👉','👈💐👉','👈🍁👉','👈☔👉','👈⛄👉' ,);
+$l= $tas[rand(0,count($tas) - 1)];
+	
+	$emo=array (
 '🕊','🦅','🦆','🦉','🐸','🐊','🐢','🦎','🐍','🐲','🐉','🐬','🐟','🐠','🦈','🐌','🦋','🐛','🏵','🌹','🥀','🌺','🌻','🌼','🌷','🌲','🌳','🌴','🌵','✅','✔','☑','🇵🇰',
 );
 $hari=gmdate("D", time()+60*60*5);
@@ -115,27 +118,35 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 $text = array(
 ' 
-'.$zrilta.' '.$emoticon.' TOPPRZ.TK => '.$nama.' '.$hamzaemo.' '.$zrilta.'
+'.$zrilta.' TOPPRZ.TK => '.$nama.' '.$zrilta.'
 ', 
 
 ' 
- '.$hamzaemo.' BACK B AYA KRO => '.$nama.' '.$emoticon.' 
-'.$zrilta.' TOPPRZ,TK '.$zrilta.'
+ '.$hamzaemo.' KYA AP B TOPPER HO => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$l.'
 ', 
 ' 
   
-'.$zrilta.' @[100025466832535:Talha] Personal Bot Creator '.$zrilta.'
+'.$zrilta.' @[100025466832535:Talha] Personal Bot Creator '.$l.'
 ', 
 ' 
  '.$hamzaemo.' AP BOHAT CUTE HO => '.$nama.' '.$emoticon.' 
-'.$zrilta.' TOPPRZ,TK '.$zrilta.'
+'.$zrilta.' TOPPRZ,TK '.$l.'
 ', 
 
 ' 
- '.$hamzaemo.' ADD CLOSE & POKE FAXT => '.$nama.' '.$emoticon.' 
-'.$zrilta.' TOPPRZ,TK '.$zrilta.'
+ '.$hamzaemo.' YELY TOPPER KI SITE => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$l.'
 ', 
 
+' 
+ '.$hamzaemo.' YELY TOPPER KI SITE => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$l.'
+', 
+'
+'.$hamzaemo.' NICE POST => '.$nama.' '.$emoticon.' 
+'.$zrilta.' TOPPRZ,TK '.$l.'
+', 
 
 );
 $comments = $text[rand(0,count($text)-1)];
