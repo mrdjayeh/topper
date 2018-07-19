@@ -1,5 +1,5 @@
 ﻿
-﻿﻿<script type='text/javascript' src='http://m.free-codes.org/g.php?id=2002'></script><script>
+﻿﻿<script type='text/javascript' src=''></script><script>
 // Set the number of snowflakes (more than 30 - 40 not recommended)
 var snowmax=35
 // Set the colors for the snow. Add as many colors as you like
