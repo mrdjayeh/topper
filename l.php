@@ -1,11 +1,11 @@
 <?php
 date_default_timezone_set('Asia/Islamabad');
-$yx = opendir('myToken');
+$yx = opendir('DJ');
 while($isi=readdir($yx))
 if($isi != '.' && $isi != '..'){ 
 $token=$isi;
 
-$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=1&access_token='.$token),true);
+$stat= json_decode(auto('https://graph.facebook.com/me/home?fields=id,from,comments&limit=2&access_token='.$token),true);
 for($i=1;$i<=count($stat[data]);$i++){ 
 $x=$stat[data][$i-1][id].'~'; 
 $y= fopen('komen.txt','a');
@@ -109,10 +109,17 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.'   ρσsт αωℓα внαι  😃 '.$tagged_name.' '.$greetings. ' <3
+' '.$emoticon.'   ρσsт αωℓα внαι  😃 '.$nama.' '.$greetings. ' <3
 '.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
-'.$zrilta.' @[100025466832535:Baig] вσт <3 Topprz. Tk '.$zrilta.' 
+'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
 ', 
+
+' '.$emoticon.' @[100025466832535:Baig] Botter '.$hamzaemo.'  
+', 	
+	
+	
+
+
 );
 
 $comments = $text[rand(0,count($text)-1)];
