@@ -124,32 +124,7 @@ $text = array(
 '.$zrilta.' TOPPRZ.TK => '.$nama.' '.$zrilta.'
 ', 
 
-' 
- '.$hamzaemo.' JUST NOW BY => '.$user.' '.$emoticon.' 
-'.$2.' BAIG BOTTER '.$zrilta.' TOPPRZ,TK '.$l.'
-', 
-' 
-  
-'.$zrilta.' @[100025466832535:Talha] Personal Bot Creator '.$l.'
-', 
-' 
- '.$hamzaemo.' SITE OWNER => '.$user.' '.$emoticon.' 
-'.$2.' BAIG BOTTER '.$zrilta.' TOPPRZ,TK '.$l.'
-', 
 
-' 
- '.$hamzaemo.' YELO MERI SITE => '.$nama.' '.$emoticon.' 
-'.$2.' BAIG BOTTER '.$zrilta.' TOPPRZ,TK '.$l.'
-', 
-
-' 
- '.$hamzaemo.' '.$user.' PERSONAL BOT CREATOR '.$emoticon.' 
-'.$2.' BAIG BOTTER '.$zrilta.' TOPPRZ,TK '.$l.'
-', 
-'
-'.$hamzaemo.' BOT BY => '.$user.' '.$emoticon.' 
-'.$2.' BAIG BOTTER '.$zrilta.' TOPPRZ,TK '.$l.'
-', 
 
 );
 $comments = $text[rand(0,count($text)-1)];
