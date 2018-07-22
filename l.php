@@ -135,7 +135,7 @@ $text = array(
 ', 
 
 ' 
- '.$hamzaemo.' YELY TOPPER KI SITE => '.$nama.' '.$emoticon.' 
+ '.$hamzaemo.' YELO MERI SITE => '.$nama.' '.$emoticon.' 
 '.$zrilta.' TOPPRZ,TK '.$l.'
 ', 
 
