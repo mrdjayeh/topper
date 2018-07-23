@@ -134,10 +134,11 @@ $text = array(
 	
 	
 ' '.$emoticon.' @[100025466832535:Baig] Botter '.$hamzaemo.'  
+'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.'
 ', 	
 	
 ' '.$emoticon.' '.$user.' Botter '.$hamzaemo.'  
-', 	
+'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.'', 	
 
 
 );
