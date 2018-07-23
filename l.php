@@ -16,7 +16,15 @@ $exp_nam = explode(' ',$stat[data][$i-1][from][name]);
 $nama = $gender.' '.$exp_nam[0];
 $tags = explode(' ',$stat[data][$i-1][from][id]);
 $tagged_name = ' @['.$tags[0].':1] ';
-$kata= array(
+$me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
+$user = ' @['.$me[id].':] ';
+$user1 ='@['.$stat[data][$i-1][from][id].':'.$exp_nam[0].']';
+
+	
+	
+	
+	
+	$kata= array(
 'cinta.php',
 'motivasi.php',
 'motto.php',
@@ -109,20 +117,17 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.'   ρσsт αωℓα внαι  😃 '.$nama.' '.$greetings. ' <3
-'.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
-'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
+' '.$emoticon.' тσρ ρα ασ  😃 '.$nama.' <3 
+'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
 ', 
 
-' '.$emoticon.'   ρσsт αωℓα внαι  :* '.$nama.' '.$greetings. ' <3
-'.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
-'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
+' '.$emoticon.' тσρ ℓgα кια  :* '.$nama.' <3
+'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
 ', 
 	
 	
-	' '.$emoticon.'   ρσsт αωℓα внαι  ;) '.$nama.' '.$greetings. ' <3
-'.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
-'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
+	' '.$emoticon.' ρσѕт αωℓα נαиυ  ;) '.$nama.' <3
+'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
 ', 
 	
 	
@@ -131,7 +136,8 @@ $text = array(
 ' '.$emoticon.' @[100025466832535:Baig] Botter '.$hamzaemo.'  
 ', 	
 	
-	
+' '.$emoticon.' '.$user.' Botter '.$hamzaemo.'  
+', 	
 
 
 );
