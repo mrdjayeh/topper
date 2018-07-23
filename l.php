@@ -122,7 +122,7 @@ $text = array(
 ', 
 
 ' '.$emoticon.' тσρ ℓgα кια :* '.$nama.' <3
-'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
+'.$zrilta.' тσρρяz.тк '.$zrilta.' 
 ', 
 	
 	
