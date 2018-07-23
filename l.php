@@ -117,16 +117,16 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' тσρ ρα ασ  😃 '.$nama.' <3 
+' '.$emoticon.' тσρ ρα ασ 😃 '.$nama.' <3 
 '.$zrilta.' тσρρяz.тк '.$zrilta.' 
 ', 
 
-' '.$emoticon.' тσρ ℓgα кια  :* '.$nama.' <3
+' '.$emoticon.' тσρ ℓgα кια :* '.$nama.' <3
 '.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
 ', 
 	
 	
-	' '.$emoticon.' ρσѕт αωℓα נαиυ  ;) '.$nama.' <3
+	' '.$emoticon.' ρσѕт αωℓα נαиυ ;) '.$nama.' <3
 '.$zrilta.' тσρρяz.тк '.$zrilta.' 
 ', 
 	
