@@ -114,6 +114,20 @@ $text = array(
 '.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
 ', 
 
+' '.$emoticon.'   ρσsт αωℓα внαι  :* '.$nama.' '.$greetings. ' <3
+'.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
+'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
+', 
+	
+	
+	' '.$emoticon.'   ρσsт αωℓα внαι  ;) '.$nama.' '.$greetings. ' <3
+'.$hamzaemo.'  ∂αу :) '.$hari.' '.$emoticon.'  ∂αтє :) '.$tg.' '.$hamzaemo.'  тιмє :) '.$time.'  '.$emoticon.' 
+'.$zrilta.' Baig вσт <3 Topprz. Tk '.$zrilta.' 
+', 
+	
+	
+	
+	
 ' '.$emoticon.' @[100025466832535:Baig] Botter '.$hamzaemo.'  
 ', 	
 	
