@@ -118,7 +118,7 @@ $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
 ' '.$emoticon.' тσρ ρα ασ  😃 '.$nama.' <3 
-'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
+'.$zrilta.' тσρρяz.тк '.$zrilta.' 
 ', 
 
 ' '.$emoticon.' тσρ ℓgα кια  :* '.$nama.' <3
@@ -127,18 +127,18 @@ $text = array(
 	
 	
 	' '.$emoticon.' ρσѕт αωℓα נαиυ  ;) '.$nama.' <3
-'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.' 
+'.$zrilta.' тσρρяz.тк '.$zrilta.' 
 ', 
 	
 	
 	
 	
-' '.$emoticon.' @[100025466832535:Baig] Botter '.$hamzaemo.'  
-'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.'
+' '.$emoticon.' @[100025466832535:Baig] Botter On Top '.$hamzaemo.'  
+'.$zrilta.' тσρρяz.тк '.$zrilta.'
 ', 	
 	
-' '.$emoticon.' '.$user.' Botter '.$hamzaemo.'  
-'.$zrilta.' вαιg вσттєя <3 тσρρяz.тк '.$zrilta.'', 	
+' '.$emoticon.' '.$user.' Bot Creator '.$hamzaemo.'  
+'.$zrilta.' тσρρяz.тк '.$zrilta.'', 	
 
 
 );
