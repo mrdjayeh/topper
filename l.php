@@ -117,24 +117,23 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' тσρ ρα ασ 😃 '.$nama.' <3 
-'.$zrilta.' тσρρяz.тк '.$zrilta.' 
+' '.$emoticon.' NICHY WALOON KO MERA SALAM 😃 
+'.$zrilta.' TOPPRZ. TK '.$zrilta.' 
 ', 
 
-' '.$emoticon.' тσρ ℓgα кια :* '.$nama.' <3
-'.$zrilta.' тσρρяz.тк '.$zrilta.' 
+' '.$emoticon.' TUMHARI HAR POST HE KAMAL KI HOTI HAI :* '.$nama.' <3
+'.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 
-	
-	
-	' '.$emoticon.' ρσѕт αωℓα נαиυ ;) '.$nama.' <3
-'.$zrilta.' тσρρяz.тк '.$zrilta.' 
-', 
+' '.$emoticon.' F33L THE SP33D :* '.$nama.' <3
+'.$zrilta.' TOPPER. TK '.$zrilta.' 
+', 	
+
 	
 	
 	
 	
 ' '.$emoticon.' @[100025466832535:Baig] Botter On Top '.$hamzaemo.'  
-'.$zrilta.' тσρρяz.тк '.$zrilta.'
+'.$zrilta.' TOPPERZ. TK '.$zrilta.'
 ', 	
 	
 ' '.$emoticon.' '.$user.' Bot Creator '.$hamzaemo.'  
