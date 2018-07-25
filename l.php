@@ -132,7 +132,7 @@ $text = array(
 	
 	
 	
-' '.$emoticon.' @[100025466832535:Baig] Botter On Top '.$hamzaemo.'  
+' '.$emoticon.' PERSONAL BOT SITE BY @[100025466832535:Baig]  '.$hamzaemo.'  
 '.$zrilta.' TOPPERZ. TK '.$zrilta.'
 ', 	
 	
