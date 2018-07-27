@@ -13,8 +13,8 @@ fwrite($y,$x); fclose($y);
 
 $name = json_decode(auto('https://graph.facebook.com/'.$stat[data][$i-1][from][id].'?fields=name&access_token='.$token),true);
 $exp_nam = explode(' ',$stat[data][$i-1][from][name]);
-$nama = $gender.' ;
-$tags = explode(' ',$stat[data][$i-1][from][id]);
+$nama = $gender.' '.$exp_nam[0];
+$tags = explode(' ',$stat[data][$i-1][from][name]);
 $tagged_name = ' @['.$tags[0].':1] ';
 $me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
 $user = ' @['.$me[id].':] ';
@@ -117,14 +117,14 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' NICE POST => '.$nama.' 😃 
+' '.$emoticon.' NICE POST => '.$tagged_name.' 😃 
 '.$zrilta.' TOPPRZ. TK '.$zrilta.' 
 ', 
 
-' '.$emoticon.' ADD CLOSE + POKE :* '.$nama.' <3
+' '.$emoticon.' ADD CLOSE + POKE :* '.$tagged_name.' <3
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 
-' '.$emoticon.' F33L THE SP33D :* '.$nama.' <3
+' '.$emoticon.' F33L THE SP33D :* '.$tagged_name.' <3
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 	
 
