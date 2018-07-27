@@ -123,7 +123,7 @@ $text = array(
 
 :* Nice Post :* '.$user1.' :* 
 
-'.$zrilta.' TOPPRZ. TK '.$zrilta.' 
+'.$zrilta.' Topprz. Tk '.$zrilta.' 
 ', 
 
 ' 
@@ -131,21 +131,21 @@ $text = array(
 
 :* Add Close + Poke :* '.$user1.' :*
 
-'.$zrilta.' Topperz. Tk '.$zrilta.' 
+'.$zrilta.' Topprz. Tk '.$zrilta.' 
 ', 
 ' 
 :* Bot Powered By :* '.$crot.' :*
 
 :* F33l The Speed :* '.$user1.' :*
 
-'.$zrilta.' Topperz. Tk '.$zrilta.' 
+'.$zrilta.' Topprz. Tk '.$zrilta.' 
 ', 	
 
 	
 	
 	
 	
-' '.$emoticon.' PERSONAL BOT SITE BY @[100025466832535:Baig]  '.$hamzaemo.'  
+' '.$emoticon.' Powered By @[100025466832535:Baig]  '.$hamzaemo.'  
 
 ', 	
 	
@@ -153,7 +153,7 @@ $text = array(
 
 :* Bot By :* '.$crot.' :*
 
-'.$zrilta.' Topperz. Tk '.$zrilta.'', 	
+'.$zrilta.' Topprz. Tk '.$zrilta.'', 	
 
 
 );
