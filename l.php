@@ -17,7 +17,7 @@ $nama = $gender.' '.$exp_nam[0];
 $tags = explode(' ',$stat[data][$i-1][from][id]);
 $tagged_name = ' @['.$tags[0].':1] ';
 $me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
-$user = ' @['.$me[id].':] ';
+$user = ' @['.$me[me].':] ';
 $user1 =''.$stat[data][$i-1][from][name].'';
 
 	
@@ -118,13 +118,16 @@ $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
 ' '.$emoticon.' NICE POST => '.$user1.' 😃 
+'.$user.'
 '.$zrilta.' TOPPRZ. TK '.$zrilta.' 
 ', 
 
 ' '.$emoticon.' ADD CLOSE + POKE :* '.$user1.' <3
+'.$user.'
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 
 ' '.$emoticon.' F33L THE SP33D :* '.$user1.' <3
+'.$user.'
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 	
 
@@ -137,6 +140,7 @@ $text = array(
 ', 	
 	
 ' '.$emoticon.' '.$user.' ON FIRE '.$hamzaemo.'  
+'.$user.'
 '.$zrilta.' TOPPERZ. TK '.$zrilta.'', 	
 
 
