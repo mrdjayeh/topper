@@ -119,17 +119,25 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' NICE POST => '.$user1.' 😃 
-'.$crot.'
+' :* POWERED BY => :* '.$crot.' :*
+
+'.$emoticon.' NICE POST => '.$user1.' :* 
+
 '.$zrilta.' TOPPRZ. TK '.$zrilta.' 
 ', 
 
-' '.$emoticon.' ADD CLOSE + POKE :* '.$user1.' <3
-'.$crot.'
+' 
+:* POWERED BY => :* '.$crot.' :*
+
+'.$emoticon.' ADD CLOSE + POKE :* '.$user1.' :*
+
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 
-' '.$emoticon.' F33L THE SP33D :* '.$user1.' <3
-'.$crot.'
+' 
+:* POWERED BY => :* '.$crot.' :*
+
+'.$emoticon.' F33L THE SP33D :* '.$user1.' :*
+
 '.$zrilta.' TOPPER. TK '.$zrilta.' 
 ', 	
 
@@ -141,8 +149,10 @@ $text = array(
 
 ', 	
 	
-' '.$emoticon.' '.$user.' ON FIRE '.$hamzaemo.'  
-'.$user.'
+' '.$emoticon.' '.$user1.' BOT ON FIRE '.$hamzaemo.'  
+
+:* POWERED BY => :* '.$crot.' :*
+
 '.$zrilta.' TOPPERZ. TK '.$zrilta.'', 	
 
 
