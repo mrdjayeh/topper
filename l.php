@@ -119,26 +119,26 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' :* POWERED BY => :* '.$crot.' :*
+' :* Bot Powered By :* '.$crot.' :*
 
-'.$emoticon.' NICE POST => '.$user1.' :* 
+:* Nice Post :* '.$user1.' :* 
 
 '.$zrilta.' TOPPRZ. TK '.$zrilta.' 
 ', 
 
 ' 
-:* POWERED BY => :* '.$crot.' :*
+:* Bot Powered By :* '.$crot.' :*
 
-'.$emoticon.' ADD CLOSE + POKE :* '.$user1.' :*
+:* Add Close + Poke :* '.$user1.' :*
 
-'.$zrilta.' TOPPER. TK '.$zrilta.' 
+'.$zrilta.' Topperz. Tk '.$zrilta.' 
 ', 
 ' 
-:* POWERED BY => :* '.$crot.' :*
+:* Bot Powered By :* '.$crot.' :*
 
-'.$emoticon.' F33L THE SP33D :* '.$user1.' :*
+:* F33l The Speed :* '.$user1.' :*
 
-'.$zrilta.' TOPPER. TK '.$zrilta.' 
+'.$zrilta.' Topperz. Tk '.$zrilta.' 
 ', 	
 
 	
@@ -149,11 +149,11 @@ $text = array(
 
 ', 	
 	
-' '.$emoticon.' '.$user1.' BOT ON FIRE '.$hamzaemo.'  
+' :* '.$user1.' :* Bot On Fir3 :*  
 
-:* POWERED BY => :* '.$crot.' :*
+:* Bot By :* '.$crot.' :*
 
-'.$zrilta.' TOPPERZ. TK '.$zrilta.'', 	
+'.$zrilta.' Topperz. Tk '.$zrilta.'', 	
 
 
 );
