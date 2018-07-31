@@ -113,7 +113,7 @@ $text = array(
  '.$zrilta.' BOT SITE -> TOPPRZ. TK '.$zrilta.' 
 ', 
 
-''.$zrilta.' @[100025466832535:Talha] BOTTER ON TOP '.$zrilta.' ';
+''.$zrilta.' @[100025466832535:Talha] BOTTER ON TOP '.$zrilta.' ',
 
 
 );
