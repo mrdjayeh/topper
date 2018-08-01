@@ -108,10 +108,10 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 $TimeZone="+05:00";
 	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
-	if ($hour > 22) $greetings = " 🏡 gσσ∂ иιgнт :* '.$user1.'";
-	else if ($hour > 17) $greetings = "🏡 gσσ∂ єνєиιиg :* '.$user1.' ";
-	elseif ($hour > 11) $greetings = "🏡 gσσ∂ αfтєяиσσи :* '.$user1.' ";
-	elseif ($hour < 12) $greetings = " 🏡 gσσ∂ мσяиιиg :* '.$user1.' ";
+	if ($hour > 22) $greetings = " 🏡 gσσ∂ иιgнт :* '.$user1.' :*";
+	else if ($hour > 17) $greetings = "🏡 gσσ∂ єνєиιиg :* '.$user1.' :* ";
+	elseif ($hour > 11) $greetings = "🏡 gσσ∂ αfтєяиσσи :* '.$user1.' :* ";
+	elseif ($hour < 12) $greetings = " 🏡 gσσ∂ мσяиιиg :* '.$user1.' :* ";
 	
 
 $emoticon=$emo[rand(0,count($emo)-1)];
