@@ -16,7 +16,13 @@ $exp_nam = explode(' ',$stat[data][$i-1][from][name]);
 $nama = $gender.' '.$exp_nam[0];
 $tags = explode(' ',$stat[data][$i-1][from][id]);
 $tagged_name = ' @['.$tags[0].':1] ';
-$kata= array(
+$me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
+$user = ' @['.$me[id].':] ';
+$user1 ='@['.$stat[data][$i-1][from][id].':'.$exp_nam[0].']';
+
+	
+	
+	$kata= array(
 'cinta.php',
 'motivasi.php',
 'motto.php',
@@ -109,11 +115,11 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.' TOPPER IS HERE 😃 || '.$nama.' || '.$hamzaemo. ' 
+' '.$emoticon.'-KOI PUCHY TW KHENA 😂 '.$user.' OR @[100025466832535:Baig] Botter AYEN THY POST PY '.$hamzaemo. ' 
  '.$zrilta.' BOT SITE -> TOPPRZ. TK '.$zrilta.' 
 ', 
 
-''.$zrilta.' @[100025466832535:Talha] BOTTER ON TOP '.$zrilta.' ',
+
 
 
 );
