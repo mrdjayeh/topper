@@ -118,22 +118,22 @@ $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
 ' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
- '.$greetings.'
+ '.$greetings. '
  <3 Bot Site => Topprz .Tk <3
 ', 
 
 ' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
- '.$greetings.'
+ '.$greetings. '
  <3 Bot Site => Topprz .Tk <3
 ', 
 	
 	' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
- '.$greetings.'
+ '.$greetings. '
  <3 Bot Site => Topprz .Tk <3
 ', 
 
 ' '.$zrilta.' Bot Powered By @[100025466832535:Baig] '.$crot.' '.$zrilta.'
- '.$greetings.'
+ '.$greetings. '
  <3 Bot Site => Topprz .Tk <3
 ', 
 );
