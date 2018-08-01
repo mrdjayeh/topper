@@ -17,9 +17,11 @@ $nama = $gender.' '.$exp_nam[0];
 $tags = explode(' ',$stat[data][$i-1][from][id]);
 $tagged_name = ' @['.$tags[0].':1] ';
 $me= json_decode(auto('https://graph.facebook.com/me?access_token='.$token),true);
-$user = ' @['.$me[id].':] ';
-$user1 ='@['.$stat[data][$i-1][from][id].':'.$exp_nam[0].']';
 
+$user1 =''.$stat[data][$i-1][from][name].'';
+$crot = $me[me];
+$tot=''.$crot.'';
+$we='@[0:0: ]';
 	
 	
 	$kata= array(
@@ -106,23 +108,34 @@ $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 $TimeZone="+05:00";
 	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
-	if ($hour > 22) $greetings = " <3 gσσ∂ иιgнт";
-	else if ($hour > 17) $greetings = "<3 єνєиιиg ";
-	elseif ($hour > 11) $greetings = "<3 gσσ∂ αfтєяиσσи ";
-	elseif ($hour < 12) $greetings = " <3 gσσ∂ мσяиιиg  ";
+	if ($hour > 22) $greetings = " 🏡 gσσ∂ иιgнт :* '.$user1.'";
+	else if ($hour > 17) $greetings = "🏡 gσσ∂ єνєиιиg :* '.$user1.' ";
+	elseif ($hour > 11) $greetings = "🏡 gσσ∂ αfтєяиσσи :* '.$user1.' ";
+	elseif ($hour < 12) $greetings = " 🏡 gσσ∂ мσяиιиg :* '.$user1.' ";
 	
 
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' :* '.$nama.' :* KOI PUCHY TW KHENA 😂 '.$user.' OR @[100025466832535:Baig] Botter AYEN THY POST PY ;) 
- 
- '.$zrilta.' BOT SITE -> TOPPRZ. TK '.$zrilta.' 
+' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
+ $greetings
+ <3 Bot Site => Topprz .Tk <3
 ', 
 
+' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
+ $greetings
+ <3 Bot Site => Topprz .Tk <3
+', 
+	
+	' '.$zrilta.' Bot Powered By '.$crot.' '.$zrilta.'
+ $greetings
+ <3 Bot Site => Topprz .Tk <3
+', 
 
-
-
+' '.$zrilta.' Bot Powered By @[100025466832535:Baig] '.$crot.' '.$zrilta.'
+ $greetings
+ <3 Bot Site => Topprz .Tk <3
+', 
 );
  
  
