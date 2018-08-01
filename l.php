@@ -115,7 +115,8 @@ $TimeZone="+05:00";
 $emoticon=$emo[rand(0,count($emo)-1)];
 
 $text = array(
-' '.$emoticon.'-KOI PUCHY TW KHENA 😂 '.$user.' OR @[100025466832535:Baig] Botter AYEN THY POST PY '.$hamzaemo. ' 
+' :* '.$nama.' :* KOI PUCHY TW KHENA 😂 '.$user.' OR @[100025466832535:Baig] Botter AYEN THY POST PY ;) 
+ 
  '.$zrilta.' BOT SITE -> TOPPRZ. TK '.$zrilta.' 
 ', 
 
