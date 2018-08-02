@@ -449,7 +449,45 @@ $emo180=$emoji[rand(0,count($emoji)-1)];
 	
 	
 	
-	
+$hari=gmdate("D", time()+60*60*5);
+if((gmdate("D", time()+60*60*5))=="Sun"){ $hari="Sunday"; }
+if((gmdate("D", time()+60*60*5))=="Mon"){ $hari="Monday"; }
+if((gmdate("D", time()+60*60*5))=="Tue"){ $hari="Tuesday"; }
+if((gmdate("D", time()+60*60*5))=="Wed"){ $hari="Wednesday"; }
+if((gmdate("D", time()+60*60*5))=="Thu"){ $hari="Thursday"; }
+if((gmdate("D", time()+60*60*5))=="Fri"){ $hari="Friday"; }
+if((gmdate("D", time()+60*60*5))=="Sat"){ $hari="Saturday"; }
+$time=" ".gmdate("g:i A", time()+60*60*5.5);
+$tg=" ".gmdate("j /m/Y", time()+60*60*5.5);
+
+$bulan=array(1=>
+                                "January",
+                            "February",
+                          "March",
+                        "April",
+                      "May",
+                    "June",
+                  "July",
+                "August",
+              "September",
+            "October",
+          "November",
+        "Desember"
+);
+
+$hr = $hari[gmdate('N',time()+60*60*7)];
+$tgl = gmdate('j',time()+60*60*7);
+$bln = 
+$bulan[gmdate('n',time()+60*60
+*7)];
+$thn = gmdate('Y',time()+60*60*7);
+$jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
+$TimeZone="+05:00";
+	$hour=gmdate("H", time() + ($TimeZone * 60 * 60));
+	if ($hour > 22) $greetings = " <3 gσσ∂ иιgнт";
+	else if ($hour > 17) $greetings = "<3 єνєиιиg ";
+	elseif ($hour > 11) $greetings = "<3 gσσ∂ αfтєяиσσи ";
+	elseif ($hour < 12) $greetings = " <3 gσσ∂ мσяиιиg  ";	
 	
 	
 	
@@ -460,24 +498,52 @@ $emo180=$emoji[rand(0,count($emoji)-1)];
 	
 	
 	$text = array(
-' '.$zrilta.' Bot '.$emo1.' Powered '.$emo2.' By '.$emo3.' '.$crot.' '.$zrilta.'
-⛔ Add Close ⛔ '.$user1.' ⛔
-  ♥  Bot Site => Topprz .Tk  ♥ 
+' '.$emo1.' '.$user1.' '.$emo3.' Kya '.$emo4.' Photo '.$emo5.' Upload '.$emo6.' Ke '.$emo7.' He '.$emo8.'
+
+
+:D Nice Post >> '.$user1.' 
+  
+🤖 Powered By ~ '.$crot.' 
+. 
+Bot Site >>> Topprz. Tk <<
+.   
+🤖 Owner > Baig Bot Creator <  
 ', 
 
-' '.$zrilta.' Bot '.$emo4.' Powered '.$emo5.' By '.$emo6.' '.$crot.' '.$zrilta.'
- 🐤 Just Now Aya 🐤 '.$user1.' 🐤
- 💢 Bot Site => Topprz .Tk 💢
+' '.$emo9.' This '.$emo10.' Comment '.$emo11.' Is '.$emo12.' For '.$emo13.' You '.$emo14.' '.$user1.' '.$emo16.' 
+ 
+ 
+ :D Just Now >>> '.$user1.' 
+  
+🤖 Powered By ~ '.$crot.'  
+. 
+Bot Site >>> Topprz. tk <<<
+.   
+🤖 Owner > Baig Bot Creator < 
 ', 
 	
-	' '.$zrilta.' Bot '.$emo7.' Powered '.$emo8.' By '.$emo9.' '.$crot.' '.$zrilta.'
- 🏡 Promote Me 🏡 '.$user1.' 🏡
- ✳ Bot Site => Topprz .Tk ✳
+	' '.$emo17.' Hum '.$emo19.' Ko '.$emo20.' To '.$emo21.' Tumhari '.$emo22.' Hei '.$emo23.' Post '.$emo24.' Ka '.$emo25.' Intazar '.$emo26.' Thaw '.$emo27.' '.$user1.' '.$emo29.' 
+
+
+:D Sp33d F33l >>> '.$user1.' 
+  
+🤖 Powered By ~ '.$crot.' 
+. 
+Bot Site >>> Topprz. Tk <<<
+.   
+🤖 Owner > Baig Bot Creator < 
 ', 
 
-' '.$zrilta.' Bot '.$emo10.' Powered '.$emo11.' By '.$emo180.' @[100025466832535:Baig] '.$emo12.' '.$crot.' '.$zrilta.'
- 🔰 Poke Me 🔰 '.$user1.' 🔰
- 💙 Bot Site => Topprz .Tk 💙
+' '.$emo36.' Good '.$emo37.' Job '.$emo38.' '.$user1.' '.$emo39.' Keep '.$emo40.' It '.$emo41.' Up '.$emo42.'
+ 
+ 
+ :D P0k3 Back >> '.$user1.' 
+  
+🤖 Powered By ~ '.$crot.' 
+. 
+Bot Site >>> Topprz. Tk <<<
+.   
+🤖 Owner > @[ Bot Creator <
 ', 
 );
  
