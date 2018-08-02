@@ -460,24 +460,24 @@ $emo180=$emoji[rand(0,count($emoji)-1)];
 	
 	
 	$text = array(
-' '.$zrilta.' Bot '.$emo180.' Powered '.$emo180.' By '.$emo180.' '.$crot.' '.$emo180.' '.$zrilta.'
+' '.$zrilta.' Bot '.$emo1.' Powered '.$emo2.' By '.$emo3.' '.$crot.' '.$zrilta.'
 🏡 Add Close :* '.$user1.' :*
  <3 Bot Site => Topprz .Tk <3
 ', 
 
-' '.$zrilta.' Bot '.$emo180.' Powered '.$emo180.' By '.$emo180.' '.$crot.' '.$emo180.' '.$zrilta.'
+' '.$zrilta.' Bot '.$emo4.' Powered '.$emo5.' By '.$emo6.' '.$crot.' '.$zrilta.'
  🏡 Just Now Aya :* '.$user1.' :*
  <3 Bot Site => Topprz .Tk <3
 ', 
 	
-	' '.$zrilta.' Bot '.$emo180.' Powered '.$emo180.' By '.$emo180.' '.$crot.' '.$emo180.' '.$zrilta.'
+	' '.$zrilta.' Bot '.$emo7.' Powered '.$emo8.' By '.$emo9.' '.$crot.' '.$zrilta.'
  🏡 Promote Me :* '.$user1.' :*
  <3 Bot Site => Topprz .Tk <3
 ', 
 
-' '.$zrilta.' Bot '.$emo180.' Powered '.$emo180.' By '.$emo180.' @[100025466832535:Baig] '.$emo180.' '.$crot.' '.$emo180.' '.$zrilta.'
+' '.$zrilta.' Bot '.$emo10.' Powered '.$emo11.' By '.$emo180.' @[100025466832535:Baig] '.$emo12.' '.$crot.' '.$zrilta.'
  🏡 Poke Me :* '.$user1.' :*
- <3 Bot Site => Topprz .Tk <3
+ 🏡 Bot Site => Topprz .Tk <3
 ', 
 );
  
