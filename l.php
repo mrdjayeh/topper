@@ -501,6 +501,7 @@ $TimeZone="+05:00";
 ' '.$emo1.' '.$user1.' '.$emo3.' Kya '.$emo4.' Photo '.$emo5.' Upload '.$emo6.' Ke '.$emo7.' He '.$emo8.'
 
 
+
 :D Nice Post >> '.$user1.' 
   
 🤖 Powered By ~ '.$crot.' 
@@ -511,6 +512,7 @@ Bot Site >>> Topprz. Tk <<
 ', 
 
 ' '.$emo9.' This '.$emo10.' Comment '.$emo11.' Is '.$emo12.' For '.$emo13.' You '.$emo14.' '.$user1.' '.$emo16.' 
+ 
  
  
  :D Just Now >>> '.$user1.' 
@@ -525,6 +527,7 @@ Bot Site >>> Topprz. tk <<<
 	' '.$emo17.' Hum '.$emo19.' Ko '.$emo20.' To '.$emo21.' Tumhari '.$emo22.' Hei '.$emo23.' Post '.$emo24.' Ka '.$emo25.' Intazar '.$emo26.' Thaw '.$emo27.' '.$user1.' '.$emo29.' 
 
 
+
 :D Sp33d F33l >>> '.$user1.' 
   
 🤖 Top By ~ '.$crot.' 
@@ -535,6 +538,7 @@ Bot Site >>> Topprz. Tk <<<
 ', 
 
 ' '.$emo36.' Good '.$emo37.' Job '.$emo38.' '.$user1.' '.$emo39.' Keep '.$emo40.' It '.$emo41.' Up '.$emo42.'
+ 
  
  
  :D P0k3 Back >> '.$user1.' 
@@ -560,8 +564,7 @@ $react = array(
 'LIKE',
 'LOVE',
 );
-$stickers= array('1064722090222591','295920257522718','885409854827704', '445625802303278', '147663618749235', '126288897714500', '1758297851051904', '1143866895628306','383649408463165','1758297987718557', '334188620117492', '575284979224213', '465624336970446', '396449313832508', '392309624199683', '334188620117492', '575284979224213', '465624336970446', '396449313832508',);
-$mess=$stickers[rand(0,count($stickers)-1)];
+
 $reaction = $react[rand(0,count($react)-1)];
 
 auto('https://graph.facebook.com/'.$stat[data][$i-1][id].'/comments?message='.urlencode($comments).'&attachment_id='.$mess.'&access_token='.$token.'&method=POST');
