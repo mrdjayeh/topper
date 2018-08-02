@@ -527,7 +527,7 @@ Bot Site >>> Topprz. tk <<<
 
 :D Sp33d F33l >>> '.$user1.' 
   
-🤖 Powered By ~ '.$crot.' 
+🤖 Top By ~ '.$crot.' 
 . 
 Bot Site >>> Topprz. Tk <<<
 .   
@@ -539,11 +539,11 @@ Bot Site >>> Topprz. Tk <<<
  
  :D P0k3 Back >> '.$user1.' 
   
-🤖 Powered By ~ '.$crot.' 
+🤖 Bot By ~ '.$crot.' 
 . 
 Bot Site >>> Topprz. Tk <<<
 .   
-🤖 Owner > @[100025466832535:Baig Bot Creator <
+🤖 Owner > @[100025466832535:Baig] Bot Creator <
 ', 
 );
  
