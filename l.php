@@ -506,7 +506,7 @@ $TimeZone="+05:00";
   
 🤖 Powered By ~ '.$crot.' 
 . 
-Bot Site >>> Topprz. Tk <<
+Bot Site ->>> Topprz. Tk <<<-
 .   
 🤖 Owner > Baig Bot Creator <  
 ', 
@@ -519,7 +519,7 @@ Bot Site >>> Topprz. Tk <<
   
 🤖 Powered By ~ '.$crot.'  
 . 
-Bot Site >>> Topprz. tk <<<
+Bot Site ->>> Topprz. tk <<<-
 .   
 🤖 Owner > Baig Bot Creator < 
 ', 
@@ -532,7 +532,7 @@ Bot Site >>> Topprz. tk <<<
   
 🤖 Top By ~ '.$crot.' 
 . 
-Bot Site >>> Topprz. Tk <<<
+Bot Site ->>> Topprz. Tk <<<-
 .   
 🤖 Owner > Baig Bot Creator < 
 ', 
@@ -545,7 +545,7 @@ Bot Site >>> Topprz. Tk <<<
   
 🤖 Bot By ~ '.$crot.' 
 . 
-Bot Site >>> Topprz. Tk <<<
+Bot Site ->>> Topprz. Tk <<<-
 .   
 🤖 Owner > @[100025466832535:Baig] Bot Creator <
 ', 
