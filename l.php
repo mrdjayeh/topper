@@ -543,7 +543,7 @@ Bot Site >>> Topprz. Tk <<<
 . 
 Bot Site >>> Topprz. Tk <<<
 .   
-🤖 Owner > @[ Bot Creator <
+🤖 Owner > @[100025466832535:Baig Bot Creator <
 ', 
 );
  
